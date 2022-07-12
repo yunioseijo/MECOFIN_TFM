@@ -1,0 +1,28 @@
+
+
+
+	Objetivo. Determinar si el valor de cierre de una accion subira o bajará al día siguiente 
+	
+	Metdologías:
+	1 Metodo Yunio (?)
+	2 Metodo Basico: Mañana ocurrirá lo mismo que hoy.
+	3 Metodo Basico en diferencia: Mañana se mantiene la tendencia del incremento de los dos dias anteriores
+	4 Regresion Logística
+	5 Red neuronal
+	6 Red Recurrente
+	
+	Estudio de resultados
+	Comparar cada metodo uno contra todos
+	
+	Datos
+	Las más representativas de cada sector.
+	Descripcion de cada base de datos por accion
+	
+	
+	
+	
+	
+	
+	repositorio en Github
+	
+	Mandar TFM de ejemplos y solicitar el indice a los dos tutores
