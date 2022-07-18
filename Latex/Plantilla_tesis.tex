@@ -1,0 +1,56 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+
+% Esto es para poder escribir acentos directamente:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum}
+% Asigna un tamaño a la hoja y los márgenes
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+% Paquetes de la AMS
+\usepackage{amsmath, amsthm, amsfonts}
+% Para añadir archivos con extensión pdf, jpg, png or tif
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{ragged2e}
+% Primero escribimos el título
+\title{Plantilla para un artículo}
+\author{Yunio Seijo Manso\\
+  \small Universidad Internacional de Andalucía\\
+  \small yunioseijo@gmail.com  
+  \date{}
+}
+
+% Después del "preámbulo", podemos empezar el documento
+\setlength {\marginparwidth }{2cm} 
+
+\begin{document}
+% Hay que decirle que incluya el título en el documento
+\maketitle
+\clearpage
+\input{agradecimientos.tex}
+\input{abstract.tex}
+\input{resumen.tex}
+prueba referencia\cite{Mitchell1997}
+\tableofcontents
+\clearpage
+
+
+%\input{chapters/preface.tex}
+\setcounter{page}{4}
+\pagenumbering{arabic}
+
+\input{Introduccion.tex}
+\input{Estado_arte.tex}
+\input{Materiales_metodos.tex}
+\input{Resultados.tex}
+\input{Anexos.tex}
+\input{Referencias.tex}
+
+
+
+\end{document}
